@@ -1777,7 +1777,7 @@ input, select, textarea {
 	}
 
 	header.major {
-		text-align: center;
+		text-align: center; /*cpcp*/
 	}
 
 		header.major h2 {
@@ -2529,15 +2529,15 @@ input, select, textarea {
 	.slider {
 		position: relative;
 	}
-
+	
 		.slider .viewer {
 			position: relative;
 			border-radius: 0.5em;
 			border: solid 1.5em #fff;
-			height: 20em;
+			height: 10em;
 			margin: 0 auto;
-			overflow: hidden;
-			width: 80%;
+			overflow: visible;
+			width: 100%;
 		}
 
 		.slider .slide img {
@@ -2604,7 +2604,7 @@ input, select, textarea {
 	}
 
 		.wrapper.style1 {
-			background: #f2f2f2;
+			background: #f9f2ec; /*was #f2f2f2;*/
 		}
 
 			.wrapper.style1 .box {
@@ -2617,7 +2617,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background: #e0555a;
+			background: #cc9966;  /* cpcp middle banner*/
 			color: #d1f3f6;
 		}
 
@@ -2947,7 +2947,7 @@ input, select, textarea {
 		#one .slider .viewer {
 			border-bottom-left-radius: 0;
 			border-bottom-right-radius: 0;
-			border-bottom: 0;
+			border-bottom: 1;
 		}
 
 		#one .slider .slide img {
@@ -2974,7 +2974,7 @@ input, select, textarea {
 /* CTA */
 
 	#cta {
-		padding: 4em 0;
+		padding: 1em 0;
 		text-align: center;
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2991,7 +2991,7 @@ input, select, textarea {
 	}
 
 		#cta h2 {
-			margin: 0 1em 0.25em 0;
+			margin: 0 1em 0.25em 0; 
 		}
 
 		#cta ul.actions {
@@ -3001,7 +3001,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: #949494;
+		color: #4d2600; /*copyright message*/
 		padding: 4em 0;
 		text-align: center;
 	}
@@ -3015,7 +3015,7 @@ input, select, textarea {
 		}
 
 		#footer .copyright {
-			font-size: 0.8em;
+			font-size: 0.9em;
 		}
 
 /* XLarge */

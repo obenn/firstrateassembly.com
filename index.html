@@ -5,26 +5,36 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<script> 
+		$(function(){
+		$("#left-sidebar").load("left-sidebar.html"); 
+			});
+		</script> 
 	</head>
 	<body class="landing is-preload">
+		
+		
 		 <header id="header" class="alt ">
                                   <nav id="nav">
                                           <ul>
-                                                  <li><a href="index.html">Home</a></li>
-                                                  <li><a href="#one">About</a></li>
-                                                  <li><a href="#three">Book</a></li>
+                                                  <!--<li><a href="index.html">Home</a></li> -->
+                                                  <li><a href="#one">Rates</a></li>
+                                                  <li><a href="#three">Book Now</a></li>
                                           </ul>
                                   </nav>
                           </header>
 
+		<div id="left-sidebar"></div>
 		
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner" >
 					<h2>First Rate Furniture Assembly</h2>
-					<p>Courteous, convenient in furniture assembly.</p>
+					<h3>Courteous and Convenient </h3>
+					<h3> In-Home  Assembly</h3>
 					<ul class="actions special">
-						<li><a href="#one" class="button large scrolly">Learn More</a></li>
+						<!-- cpcp <li><a href="#one" class="button large scrolly">Learn More</a></li> -->
 					</ul>
 				</div>
 			</section>
@@ -32,29 +42,54 @@
 		<!-- One -->
 			<section id="one" class="wrapper style1">
 					<header class="major">
-						<h2>Rates</h2>
-						<h3>75$ + tax for the first hour</h3>
-						<h3>25$ + tax per subsequent half hour</h3>
+						<h2>Rates</h2> 
+						<h4>(Tax not included)</h4>
+						<h3>$75 for the first hour - $25 for each subsequent half hour</h3>
+						<h3>$50 for TV Wall Mounting</h3>
 						<h3><i>Corporate and bulk rates available</i></h3>
-						<h3><b>New!!!</b> TV mounting available for 50$! </h3>
 					</header>
-				<div class="container">
+					<hr style="width:100%;text-align:left;margin-left:0"> 
+					<section id="four" class="wrapper style1">
+					<header class="major">
+						<h2>Services</h2> 
+						</header>
+					
+					
+				<div class="container">	 
 					<div class="col-4 col-6-medium col-12-small">
-							<section class="feature fa-briefcase">
-								<h3>Experienced</h3>
-								<p>Service by experienced and friendly staff.</p>
+							<section class="feature fa-wrench">
+								<h3>Assembly</h3>
+								<ul>
+								  <li>Beds</li>
+								  <li>Dressers</li>
+								  <li>Wardrobes</li>
+								  <li>Couches</li>
+								  <li>Bookshelves</li>
+								  <li>Bookcases</li>
+								  <li>Desks and other Office Furniture</li>
+								  
+								</ul>
 							</section>
 						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="feature fa-money">
-								<h3>Affordable</h3>
-								<p>Comptetitive pricing, and pay only for the time the job takes.</p>
+					<div class="col-4 col-6-medium col-12-small">
+							<section class="feature fa-television">
+								<h3>Mounting</h3>
+								<ul>
+								  <li>TV Wall Mount </li>
+								</ul>
 							</section>
 						</div>
+	
 						<div class="col-4 col-6-medium col-12-small">
-							<section class="feature fa-clock-o">
-								<h3>Reliable</h3>
-								<p>Top quality service and results.</p>
+							<section class="feature fa-tree">
+								<h3>Outdoor</h3>
+								<ul>
+								 <li>BBQ</li>
+								 <li>Patio Furntiure and Accessories</li>
+								 <li>Gazebos</li>
+								 <li>Small above-ground pools</li>
+								</ul>
+								 
 							</section>
 						</div>
 					
@@ -63,7 +98,7 @@
 						<div class="viewer">
 							<div class="reel">
 								<div class="slide">
-									<img src="images/slide01.jpg" alt="" />
+									<img src="images/slide01.jpg" alt=""  />
 								</div>
 								<div class="slide">
 									<img src="images/slide02.jpg" alt="" />
@@ -78,10 +113,9 @@
 				</div>
 			</section>
 
-
 		<!-- CTA -->
 			<section id="cta" class="wrapper style3">
-				<h2>Booking available from 8am - 9pm <br>7 days a week</br></h2>
+				<h2>Book any time between 8am - 9pm <br>7 days a week</br></h2>
 				<ul class="actions">
 					<li><a href="#three" class="button large scrolly">Book now!</a></li>
 				</ul>
@@ -92,12 +126,13 @@
 				<div class="container">
 					<header class="major">
 						<h2>About Darren</h2>
-						<p>Darren Benning is the owner and first rate furniture assembly. With years of experience in the warehouse and furniture industry</br>
-						Darren knows how to tackle even the toughest of jobs. He brings a personal touch to his work and is a pleasure to deal with.</p>
+						<p>Darren Benning is the owner of First Rate Furniture Assembly. His hands-on warehouse experience means he knows </br>
+						how to tackle the toughest jobs. He offers competative pricing and brings a personal touch to his work.</br>
+						Darren is professional, friendly, and reliable. </p>
 
 						<h2>Booking</h2>
-						<p>Contact via phone or email to arrange your next appointment</p>
-						<p><i class="fa fa-phone" aria-hidden="true"></i> <i>613-857-3977</i></p>
+						<p>Call or email to arrange an appointment</p>
+						<p><i class="fa fa-phone" aria-hidden="true"></i> <i><b>613-857-3977</b></i></p>
 						<p><i class="fa fa-envelope-o" aria-hidden="true"></i> <i><a href="mailto:darren-b@sympatico.ca">darren-b@sympatico.ca</a></i></p>
 					</header>
 				</div>
