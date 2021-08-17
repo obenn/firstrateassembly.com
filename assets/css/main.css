@@ -1731,7 +1731,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.container {
-				width: 90%;
+				width: 50%;
 			}
 
 		}
@@ -1739,7 +1739,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			.container {
-				width: 90%;
+				width: 50%;
 			}
 
 		}
@@ -2528,22 +2528,25 @@ input, select, textarea {
 
 	.slider {
 		position: relative;
+		
 	}
-	
-		.slider .viewer {
+
+		/*.slider .viewer {
 			position: relative;
 			border-radius: 0.5em;
-			border: solid 1.5em #fff;
-			height: 10em;
-			margin: 0 auto;
+			border: solid .5em #fff; /*cp
+			height: 20em;  
 			overflow: visible;
-			width: 100%;
-		}
+			width: 70%;
+		}*/
 
 		.slider .slide img {
 			border-radius: 0.375em;
 			display: block;
-			width: 100%;
+			margin-left: auto;
+            margin-right: auto;
+			/*width: 100%;*/
+			height: 80%;
 		}
 
 		.slider .nav-next,
@@ -2580,7 +2583,7 @@ input, select, textarea {
 			}
 
 		.slider .nav-next {
-			right: 0;
+			right: 0em; /*cpcp moves arrows*/
 		}
 
 			.slider .nav-next:before {
@@ -2589,7 +2592,7 @@ input, select, textarea {
 			}
 
 		.slider .nav-previous {
-			left: 0;
+			left: 0em; /*cpcp moves arrows*/
 		}
 
 			.slider .nav-previous:before {
@@ -3001,7 +3004,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		color: #4d2600; /*copyright message*/
+		color: #7e2600; /*copyright message*/
 		padding: 4em 0;
 		text-align: center;
 	}
@@ -3115,7 +3118,7 @@ input, select, textarea {
 			.slider .slide img {
 				border-radius: 0.375em;
 				display: block;
-				width: 100%;
+				max-width: 100%;
 			}
 
 			.slider .nav-next,
@@ -3127,7 +3130,7 @@ input, select, textarea {
 				margin-top: 0;
 				top: 0;
 				vertical-align: bottom;
-				width: 50%;
+				width: 10%;
 				z-index: 1;
 			}
 
@@ -3510,3 +3513,41 @@ input, select, textarea {
 				}
 
 	}
+	/* The sidebar menu cpcpcp*/
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: -1; /* Stay at the top */
+  left: 0;
+  background-color: #f2e6d9; /* light brown */
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Style page content */
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
